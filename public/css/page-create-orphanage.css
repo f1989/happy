@@ -1,0 +1,23 @@
+#page-create-orphanage {
+    display: flex;                  /* fixa a sidebar no topo*/
+    min-height: 100vh;
+}
+
+
+main {
+    flex:1;                         /* coloca o form no centro da tela */
+}
+
+.map-container {
+    margin: 0 0 4rem;
+}
+
+.map-container .leaflet-container {
+    border-radius: 20px 20px 0 0;
+}
+
+.map-container footer {
+    background: #F5F8FA;
+    border-radius: 0 0 20px 20px;
+}
+
